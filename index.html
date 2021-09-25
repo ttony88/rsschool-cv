@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cv-Turkin</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__body">
+			<div class="header__container container">
+				<div class="header__row">
+					<div class="header__column1">
+						<div class="header__photo-block">
+							<div class="header__photo-stripe"></div>
+							<div class="header__my-photo">
+								<img src="img/photo.JPG" alt="my photo">
+							</div>
+						</div>
+					</div>
+					<div class="header__column2">
+						<h1 class="header__title">ANTON TURKIN</h1>
+						<div class="header__subtitle">Junior Frontend Developer</div>
+						<div class="header__burger">
+							<span class="header__stripe"></span>
+						</div>
+						<div class="header__body-menu">
+							<nav class="header__nav">
+								<a class="header__link" href="#">Contacts</a>
+								<a class="header__link" href="#">About</a>
+								<a class="header__link" href="#">Skills</a>
+								<a class="header__link" href="#">Code</a>
+								<a class="header__link" href="#">Education</a>
+								<a class="header__link" href="#">Languages</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<section class="contacts">
+		<div class="contacts__body">
+			<div class="contaсts__container container">
+				<h2 class="contaсts__title title">Contacts</h2>
+				<ul class="contacts__list text">
+					<li class="contacts__item">location: Russia, Ryazan</li>
+					<li class="contacts__item">phone: +79511057033</li>
+					<li class="contacts__item">email: 1988anton62@gmail.com</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="about">
+		<div class="about__body">
+			<div class="about__container container">
+				<h2 class="about__title title">About me</h2>
+				<div class="about__text text">I am 33 years old. I am a graduate of the “Modern Technical Institute” with a degree in”civil engineer”. I like frontend development and I want to develop in this direction. I am a quick learner and get to the heart of the problem. I have a calm, stress-resistant character. I can work in a team and find a common language with everyone.</div>
+			</div>
+		</div>
+	</section>
+	<section class="skills">
+		<div class="skills__body">
+			<div class="skills__container container">
+				<h2 class="skills__title title">Skills</h2>
+				<div class="skills__list text">
+					<ul class="skills__item">HTML</ul>
+					<ul class="skills__item">CSS(SASS/SCSS, BEM)</ul>
+					<ul class="skills__item">JavaScript(fundamentals)</ul>
+					<ul class="skills__item">Git/GitHub</ul>
+					<ul class="skills__item">Marsy</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="code">
+		<div class="code__body">
+			<div class="code__container container">
+				<h2 class="code__title title">Code Examples</h2>
+				<div class="code__text text">
+   					<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(34, 34, 34); color: rgb(170, 170, 170);"><span class="hljs-function"><span class="hljs-keyword" style="color: rgb(102, 68, 170);">function</span> <span class="hljs-title" style="color: rgb(187, 17, 102);">duplicateEncode</span><span class="hljs-params">(word)</span>{</span>
+  <span class="hljs-keyword" style="color: rgb(102, 68, 170);">return</span> word
+    .toLowerCase()
+    .split(<span class="hljs-string" style="color: rgb(255, 204, 51);">''</span>)
+    .map( <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(102, 68, 170);">function</span> <span class="hljs-params">(a, i, w)</span> {</span>
+      <span class="hljs-keyword" style="color: rgb(102, 68, 170);">return</span> w.indexOf(a) == w.lastIndexOf(a) ? <span class="hljs-string" style="color: rgb(255, 204, 51);">'('</span> : <span class="hljs-string" style="color: rgb(255, 204, 51);">')'</span>
+    })
+    .join(<span class="hljs-string" style="color: rgb(255, 204, 51);">''</span>);
+}
+console.<span class="hljs-built_in" style="color: rgb(50, 170, 238);">log</span>(duplicateEncode(<span class="hljs-string" style="color: rgb(255, 204, 51);">'hjhlhk'</span>))</pre>
+				</div>
+            </div>
+        </div>
+	</section>
+	<section class="education">
+		<div class="education__body">
+			<div class="education__container container">
+				<h2 class="education__title title">Education</h2>
+				<ul class="education__list text">
+					<li class="education__item">
+						Modern Technical Institute
+					</li>
+					<ul>
+						<li class="education__sub-item">
+							industrial and civil construction
+						</li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="languages">
+		<div class="lenguages__body">
+			<div class="lenguages__container container">
+				<h2 class="lengeages__title title">Languages</h2>
+				<div class="lengeages__text text">
+					<ul class="lengeages__list">
+						<li class="lengeages__item">Russian - native speaker</li>
+						<li class="lengeages__item">English - B1 in process</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__body">
+			<div class="footer__container container">
+				<div class="footer__row">
+					<a href="http://github.com/ttony88" class="footer__link-gh">
+						<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 64 64" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="matrix(1,0,0,1,-400,-320)"><g id="github-apps-platform" transform="matrix(1,0,0,1,400,320)"><rect height="64" style="fill:none;" width="64" x="0" y="0"/><g transform="matrix(1,0,0,1,-400,-320)"><path d="M426.968,362.73C426.356,363.671 426,364.794 426,366C424,367 421,367 420,366C418.731,364.731 419,364 416,362C415.331,361.554 414.754,361.429 414.279,361.367C413.994,361.408 413.759,361.613 413.678,361.89C413.598,362.166 413.687,362.465 413.905,362.653C414.686,363.259 415.729,364.187 416,365C417,368 419,370 422,370C423.81,370 425.096,369.738 426,369.403L426,373.87C426,375.231 425.308,376.5 424.163,377.236C423.017,377.972 421.576,378.075 420.337,377.509C410.708,373.044 404,363.299 404,352C404,336.546 416.546,324 432,324C447.454,324 460,336.546 460,352C460,363.299 453.292,373.044 443.644,377.468C442.419,378.027 440.994,377.925 439.862,377.198C438.729,376.47 438.044,375.216 438.044,373.87C438,370.185 438,366 438,366C438,364.831 437.659,363.696 437.031,362.73C444.536,361.812 448,358.408 448,350.5C448,347.777 447.076,345.515 445.589,343.698C446.361,341.615 446.555,339.13 446.215,337.006C446.163,336.737 446.004,336.501 445.773,336.353C445.543,336.206 445.262,336.16 444.996,336.225C442.388,336.87 440.338,337.863 438.822,339.19C436.576,338.392 434.19,338 432,338C429.81,338 427.424,338.392 425.178,339.19C423.662,337.863 421.612,336.87 419.004,336.225C418.738,336.16 418.457,336.206 418.227,336.353C417.996,336.501 417.837,336.737 417.785,337.006C417.445,339.13 417.639,341.615 418.411,343.698C416.924,345.515 416,347.777 416,350.5C416,358.407 419.464,361.811 426.968,362.73Z" style="fill:rgb(115,139,149);"/></g><g transform="matrix(1,0,0,1,-400,-320)"><path d="M422.935,377.76C422.077,377.966 421.162,377.886 420.337,377.509C410.708,373.044 404,363.299 404,352C404,336.546 416.546,324 432,324C432.314,324 432.626,324.005 432.935,324.015C417.913,324.511 405.871,336.86 405.871,352C405.871,363.299 412.578,373.044 422.208,377.509C422.444,377.617 422.688,377.7 422.935,377.76ZM445.931,336.479C446.235,336.389 446.547,336.305 446.867,336.225C447.132,336.16 447.414,336.206 447.644,336.353C447.875,336.501 448.034,336.737 448.085,337.006C448.425,339.13 448.232,341.615 447.46,343.698C448.947,345.515 449.871,347.777 449.871,350.5C449.871,358.408 446.406,361.812 438.902,362.73C439.529,363.696 439.871,364.831 439.871,366C439.871,366 439.871,370.185 439.915,373.87C439.915,375.216 440.6,376.47 441.732,377.198C442.107,377.438 442.514,377.611 442.936,377.713C441.894,377.967 440.782,377.789 439.862,377.198C438.729,376.47 438.044,375.216 438.044,373.87C438,370.185 438,366 438,366C438,364.831 437.659,363.696 437.031,362.73C444.536,361.812 448,358.408 448,350.5C448,347.777 447.076,345.515 445.589,343.698C446.361,341.615 446.555,339.13 446.215,337.006C446.176,336.804 446.076,336.62 445.931,336.479ZM426,369.859C425.387,369.947 424.681,370 423.871,370C423.628,370 423.391,369.987 423.162,369.961C424.378,369.876 425.303,369.661 426,369.403L426,369.859ZM415.599,361.763C415.706,361.552 415.91,361.402 416.15,361.367C416.625,361.429 417.201,361.554 417.871,362C420.871,364 420.601,364.731 421.871,366C422.231,366.36 422.851,366.591 423.59,366.691C422.098,366.87 420.64,366.64 420,366C418.731,364.731 419,364 416,362C415.862,361.908 415.729,361.83 415.599,361.763ZM432.935,338.024C433.25,338.008 433.563,338 433.871,338C435.627,338 437.509,338.252 439.343,338.764C439.163,338.902 438.989,339.044 438.822,339.19C436.892,338.504 434.859,338.118 432.935,338.024ZM419.939,336.479C419.987,336.432 420.04,336.39 420.097,336.353C420.328,336.206 420.609,336.16 420.875,336.225C423.195,336.799 425.074,337.649 426.527,338.764C426.074,338.89 425.623,339.032 425.178,339.19C423.848,338.026 422.107,337.119 419.939,336.479Z" style="fill:rgb(97,120,129);"/></g></g></g></svg>
+					</a>
+					<h2 class="footer__year title">2021</h2>
+					<a class="footer__logo" href="http://rs.school/js/">
+						<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 552.8 205.3"><style>.st0{fill:#fff}.st1{clip-path:url(#SVGID_2_)}.st2{clip-path:url(#SVGID_4_)}.st3{clip-path:url(#SVGID_6_)}.st4{clip-path:url(#SVGID_8_)}.st5{fill:#fff;stroke:#000;stroke-width:4;stroke-miterlimit:10}.st6{clip-path:url(#SVGID_8_)}.st6,.st7{fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10}.st8,.st9{clip-path:url(#SVGID_10_)}.st9{fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10}</style><title>rs_school_js</title><path d="M285.4 68l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z"/><path d="M133 167.2l24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z"/><path d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z"/><path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z"/><ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8"/><defs><ellipse id="SVGID_1_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath><g class="st1"><path transform="rotate(-37.001 420.82 68.353)" class="st0" d="M330.9-14.2h179.8v165.1H330.9z"/><g id="Layer_2_1_"><defs><path id="SVGID_3_" transform="rotate(-37.001 420.82 68.353)" d="M330.9-14.2h179.8v165.1H330.9z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath><g id="Layer_1-2" class="st2"><ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8"/><defs><ellipse id="SVGID_5_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" overflow="visible"/></clipPath><g class="st3"><path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z"/><defs><path id="SVGID_7_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" overflow="visible"/></clipPath><g class="st4"><ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63" ry="51.8"/></g><path transform="rotate(-37 420.799 68.802)" class="st6" d="M357.8 17h125.9v103.7H357.8z"/><ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63" ry="51.8"/><path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z"/><defs><path id="SVGID_9_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" overflow="visible"/></clipPath><g class="st8"><ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63" ry="51.8"/></g><path transform="rotate(-37 420.799 68.802)" class="st9" d="M357.8 17h125.9v103.7H357.8z"/><path transform="rotate(-37.001 420.82 68.353)" class="st7" d="M330.9-14.2h179.8v165.1H330.9z"/></g><ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63" ry="51.8"/><path d="M392.4 61.3l10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1l9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z"/></g></g></g></svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
